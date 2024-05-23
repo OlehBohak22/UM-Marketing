@@ -36,6 +36,9 @@ p {
   margin: 0 auto;
 }
 
+section {
+}
+
 /* Header */
 
 .header-container {
@@ -176,4 +179,300 @@ p {
   height: 46px;
   background-color: transparent;
   padding: 12px;
+}
+
+/* Hero */
+.hero {
+  padding-top: 72px;
+}
+
+.hero-career {
+  border: 1px solid #fff;
+  border-radius: 366px;
+  width: 7vw;
+  height: 2.6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24vw;
+  padding: 10px;
+}
+
+.hero-career-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.hero-career-text::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.hero-upper-wrap {
+  display: flex;
+  margin-bottom: 62px;
+}
+
+.hero-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 5.7vw;
+  line-height: 5.9vw;
+  line-height: 0.96;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.title-inner-word {
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hero-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 1.8vw;
+  line-height: 1.6;
+  color: #a0a0a0;
+  max-width: 34vw;
+}
+
+.hero-lower-wrap {
+  display: flex;
+  margin-bottom: 268px;
+}
+
+.hero-image {
+  border-radius: 100%;
+  width: 11.1vw;
+  height: 11.1vw;
+  margin-bottom: 24px;
+}
+
+.hero-under-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.4vw;
+  line-height: 1.8vw;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #fff;
+  width: 16.25vw;
+  margin-bottom: 32px;
+}
+
+.link-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.link-border {
+  border: 1px solid #fff;
+  border-radius: 11.5vw;
+  width: 16.1vw;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-lower-wrap {
+  display: flex;
+}
+
+.link-card {
+  display: flex;
+  align-items: center;
+  background: #26282c;
+  height: 128px;
+  border-radius: 1.1vw;
+  padding: 0 30px;
+  margin-bottom: 8px;
+  max-width: 60vw;
+}
+
+.link-card:hover {
+  background: linear-gradient(48deg, #5cd6b3 0%, #04b8c4 0.01%, #4bfa8a 100%);
+}
+
+.card {
+}
+
+.card-open-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  line-height: 1;
+  color: #fff;
+}
+
+.card-open-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 366px;
+  padding: 8px 16px;
+  width: 72px;
+  height: 40px;
+  background: #111;
+  margin-right: 96px;
+}
+
+.card-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 2.9vw;
+  line-height: 2.7vw;
+  line-height: 0.96;
+  letter-spacing: -0.02em;
+  color: #fff;
+  white-space: nowrap;
+  margin-right: 11.8vw;
+}
+
+.card-title2 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 2.9vw;
+  line-height: 2.7vw;
+  line-height: 0.96;
+  letter-spacing: -0.02em;
+  color: #fff;
+  white-space: nowrap;
+  margin-right: 13vw;
+}
+
+.card-span {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #bababa;
+  white-space: nowrap;
+}
+
+.cards-list {
+  margin-left: 15vw;
+}
+
+.principales-border {
+  border: 1px solid #fff;
+  border-radius: 25.4vw;
+  padding: 8px 16px;
+  width: 8.7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.culture-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 6vw;
+  line-height: 6vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: 76px;
+}
+
+.inner {
+  font-family: "Libre Baskerville", sans-serif;
+
+  font-weight: 700;
+}
+
+.culture-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 2.5vw;
+  line-height: 2.9vw;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.inner-span {
+  font-weight: 400;
+}
+
+.culture-container {
+  display: flex;
+  margin-bottom: 75px;
+}
+
+.culture-info-wrap {
+  margin-right: auto;
+}
+
+/* Cards section */
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+
+.card-item {
+  flex-basis: calc((100% - 2 * 10) / 3);
+  border: 1px solid #414141;
+  border-radius: 22px;
+  padding: 40px;
+  flex-basis: calc((100%) / 3);
+  height: 444px;
+}
+
+.item-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 1.9vw;
+  line-height: 1.7vw;
+  line-height: 0.89286;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.item-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 1.7vw;
+  line-height: 1.55;
+  color: #fff;
+
+  opacity: 0.6;
+}
+
+.card-image {
+  margin-bottom: 30px;
 }

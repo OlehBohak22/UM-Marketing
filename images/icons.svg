@@ -1,5 +1,9 @@
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <symbol id="icon-arrow" viewBox="0 0 32 32">
+      <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z"/>
+      <path fill="none" stroke="#fff" style="stroke:var(--color1, #fff)" stroke-width="1.143" d="M14.297 13.693h4.529m0 0v4.529m0-4.529-5.133 5.133"/>
+    </symbol>
     <symbol id="icon-burger" viewBox="0 0 32 32">
       <path d="M29 8H3a2 2 0 0 1 0-4h26a2 2 0 0 1 0 4zM29 28H3a2 2 0 0 1 0-4h26a2 2 0 0 1 0 4zM29 18H3a2 2 0 0 1 0-4h26a2 2 0 0 1 0 4z"/>
     </symbol>

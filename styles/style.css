@@ -1,0 +1,179 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #111;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 93vw;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header-logo {
+  margin-right: 8.2vw;
+  padding: 10px 0;
+}
+
+.logo-icon {
+  fill: #fff;
+}
+
+.header-nav {
+  margin-right: auto;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 3.1vw;
+}
+
+.header-nav-link {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 0.9vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.current {
+  display: flex;
+  flex-direction: column;
+}
+
+.current::after {
+  content: "";
+  height: 1px;
+  width: max-width;
+  background-color: #fff;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 11vw;
+  padding: 0.8vw;
+  width: 13.4vw;
+  height: 56px;
+  cursor: pointer;
+}
+
+.btn-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+  margin-right: 22px;
+}
+
+.btn-pen {
+  background-color: #fff;
+  border-radius: 100%;
+
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+}
+
+@media (max-width: 1024px) {
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .header-logo {
+    margin-right: auto;
+  }
+
+  .btn-pen {
+    width: 46px;
+    height: 46px;
+    padding: 12px;
+  }
+
+  .header-btn {
+    border: none;
+    width: 46px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .vissually-hidden-for-mobile {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
+
+.burger-icon {
+  fill: azure;
+}
+
+.burger-btn {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  width: 46px;
+  height: 46px;
+  background-color: transparent;
+  padding: 12px;
+}

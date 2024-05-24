@@ -736,10 +736,16 @@ section {
 footer {
   padding-top: 12.5vw;
   padding-bottom: 7vw;
+  position: relative;
 }
 
 .right-under-content {
   display: flex;
   margin-left: 46.4vw;
   gap: 11.1vw;
+}
+
+.footer-background {
+  position: absolute;
+  top: 0;
 }

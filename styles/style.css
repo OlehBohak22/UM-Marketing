@@ -728,14 +728,8 @@ footer {
   padding-top: 12.5vw;
   padding-bottom: 7vw;
   position: relative;
-  background: rgb(0, 36, 10);
-  background: linear-gradient(
-    236deg,
-    rgba(0, 36, 10, 1) 0%,
-    rgba(67, 196, 110, 0.7058473047422094) 74%,
-    rgba(0, 34, 255, 1) 100%
-  );
-  background-position: 0%;
+  background-image: url(../images/footer-background.png);
+  background-repeat: no-repeat;
 }
 
 .right-under-content {

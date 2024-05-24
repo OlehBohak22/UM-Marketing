@@ -36,9 +36,6 @@ p {
   margin: 0 auto;
 }
 
-section {
-}
-
 /* Header */
 
 .header-container {
@@ -322,9 +319,6 @@ section {
 
 .link-card:hover {
   background: linear-gradient(48deg, #5cd6b3 0%, #04b8c4 0.01%, #4bfa8a 100%);
-}
-
-.card {
 }
 
 .left-card-side {
@@ -612,9 +606,6 @@ section {
 }
 
 @media (max-width: 1024px) {
-  .card-image {
-  }
-
   .item-title {
     font-size: 6.1vw;
     line-height: 6.4vw;

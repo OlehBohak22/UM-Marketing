@@ -886,6 +886,64 @@ footer {
   background: #fff;
   overflow: hidden;
   padding: 30px 35px 30px 30px;
+  transition: 0.5s;
+}
+
+.specialize-item-icon {
+  display: block;
+  border: 1px solid #aaaaaa91;
+  border-radius: 100%;
+  margin-top: 2vw;
+  margin-left: auto;
+  padding: 1.3vw;
+  width: 4.1vw;
+  height: 4.1vw;
+  transition: 0.5s;
+}
+
+.specialize-item:nth-child(1):hover {
+  background-image: url(../images/cloth.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.specialize-item:nth-child(2):hover {
+  background-image: url(../images/cosm.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.specialize-item:nth-child(3):hover {
+  background-image: url(../images/elect.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.specialize-item:nth-child(4):hover {
+  background-image: url(../images/b2b.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.specialize-item:nth-child(5):hover {
+  background-image: url(../images/other.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.specialize-item:hover .specialize-item-phone-text {
+  color: #fff;
+}
+
+.specialize-item:hover .specialize-item-title {
+  color: #fff;
+}
+
+.specialize-item:hover .specialize-item-icon {
+  fill: #ffffff;
+  background: linear-gradient(58deg, #0089c4 0%, #009faf 25.63%, #00de71 100%);
+  width: 4.8vw;
+  height: 4.8vw;
 }
 
 .specialize-span {
@@ -911,6 +969,7 @@ footer {
   text-align: center;
   margin-left: -4.2vw;
   margin-top: 14vw;
+  transition: 0.5s;
 }
 
 .specialize-item-title {
@@ -922,17 +981,7 @@ footer {
   letter-spacing: -0.02em;
   color: #1d1d1b;
   margin-top: 4.5vw;
-}
-
-.specialize-item-icon {
-  display: block;
-  border: 1px solid #aaaaaa91;
-  border-radius: 100%;
-  margin-top: 2vw;
-  margin-left: auto;
-  padding: 1.3vw;
-  width: 4.1vw;
-  height: 4.1vw;
+  transition: 0.5s;
 }
 
 /* Nextstep-section */

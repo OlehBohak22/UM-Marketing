@@ -1106,6 +1106,420 @@ footer {
   }
 }
 
+/* Section approach */
+
+.approach-section {
+  background-color: #ffffff;
+  padding-bottom: 15.9vw;
+  padding-top: 15.6vw;
+}
+
+.technology-marker-container {
+  border: 1px solid #1d1d1b;
+  border-radius: 25.4vw;
+  width: 10.1vw;
+  height: 2.6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.technology-marker-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #1d1d1b;
+  display: flex;
+  align-items: center;
+}
+
+.technology-marker-text::before {
+  content: "";
+  display: inline-block;
+  width: 0.3vw;
+  height: 0.3vw;
+  border-radius: 100%;
+  background-color: #111;
+  margin-right: 0.4vw;
+}
+
+.approach-title {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 5.9vw;
+  line-height: 5.7vw;
+  line-height: 0.96;
+  color: #1d1d1b;
+  width: 35.2vw;
+  margin-left: 24vw;
+}
+
+.approach-span {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 800;
+}
+
+.calendar-container {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 25.4vw;
+  width: 10vw;
+  height: 3vw;
+  margin-bottom: 3.3vw;
+}
+
+.calendar-value {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #929292;
+}
+
+.calendar-icon {
+  width: 1.1vw;
+  height: 1.1vw;
+  margin-left: 0.5vw;
+  fill: #929292;
+}
+
+.approaach-image {
+  width: 43.6vw;
+  height: 25.6vw;
+  margin-bottom: 0.5vw;
+}
+
+.approach-card-internal-list {
+  display: flex;
+}
+
+.approach-internal-item {
+  border-radius: 1.3vw;
+  padding: 1.6vw;
+  width: 14.1vw;
+  height: 10.1vw;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.internal-icons {
+  display: flex;
+}
+
+.internal-item-icon {
+  width: 1.4vw;
+  height: 1.4vw;
+  fill: #fff;
+}
+
+.interactive-approach-icon {
+  display: block;
+  width: 1.4vw;
+  height: 1.4vw;
+  fill: #d3d3d3;
+  margin-left: auto;
+}
+
+.approach-icons-container {
+  width: 3.1vw;
+  height: 3.1vw;
+  background: linear-gradient(58deg, #0089c4 0%, #00de71 100%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.internal-item-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+  line-height: 1.4vw;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #1d1d1b;
+  width: 10vw;
+}
+
+.card-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 5.9vw;
+  line-height: 5.9vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1d1d1b;
+  margin-bottom: 2.9vw;
+}
+
+.card-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 1.5vw;
+  line-height: 1.6;
+  color: #8e8e8e;
+  width: 27.4vw;
+  margin-bottom: 1.6vw;
+}
+
+.result-span {
+  display: block;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 1.1vw;
+  line-height: 1.3vw;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #01c96b;
+  margin-bottom: 0.8vw;
+}
+
+.approach-card-btn {
+  background: #f5f5f5;
+  border-radius: 25.4vw;
+  width: 24.7vw;
+  height: 5.1vw;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 3.6vw;
+  transition-property: background-color;
+  transition-duration: 5s;
+}
+
+.fourth-card .approach-card-btn {
+  margin-top: 9.7vw;
+}
+
+.third-card .approach-card-btn {
+  margin-top: 9.7vw;
+}
+
+.second-card .approach-card-btn {
+  margin-top: 6.7vw;
+}
+
+.approach-card-btn:hover {
+  background: linear-gradient(58deg, #0034ed 0%, #04b8c4 49%, #4bfa8a 100%);
+}
+
+.approach-card-btn:hover .approach-btn-text {
+  color: #fff;
+}
+
+.approach-card-btn:hover .approach-btn-icon {
+  fill: #0089c4;
+}
+
+.approach-card-btn:hover .approach-btn-icon-container {
+  background-color: #fff;
+}
+
+.approach-btn-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 1.7vw;
+  line-height: 1.5625;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1d1d1b;
+  width: 19.5vw;
+  transition: 0.5s;
+}
+
+.approach-btn-icon {
+  width: 1.9vw;
+  height: 1.9vw;
+  fill: #fff;
+  transition: 0.5s;
+}
+
+.approach-btn-icon-container {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 100%;
+  background-color: #1d1d1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.approach-card-item {
+  background-image: url(../images/approach-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 91vw 200vw;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  gap: 6.5vw;
+  align-items: flex-end;
+  padding: 40px 0;
+}
+
+.approach-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.approach-title-container {
+  display: flex;
+  margin-bottom: 4.5vw;
+}
+
+/* section-um-store */
+
+.section-um-store {
+  background-image: url(../images/um-section-back.svg);
+  background-repeat: no-repeat;
+}
+
+.um-marker-container {
+}
+
+.um-marker-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.um-marker-container {
+  border: 1px solid #fff;
+  border-radius: 25.4vw;
+  width: 8.2vw;
+  height: 2.6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: -6vw; */
+  margin-bottom: 1.6vw;
+}
+
+.um-marker-text::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 100%;
+  margin-right: 6px;
+}
+
+.um-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 4.5vw;
+  line-height: 5vw;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fff;
+  width: 36.8vw;
+  margin-bottom: 3.8vw;
+}
+
+.charity {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+}
+
+.wrap-image {
+  background-image: url(../images/um-store-wrap-image.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 69vw;
+  width: 95.8vw;
+  height: 62.4vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.inrenal-wrap {
+  margin: 0 auto;
+  position: relative;
+}
+
+.inst-card2 {
+  width: 18vw;
+  height: 19.1vw;
+  position: absolute;
+  top: 19vw;
+  left: -21vw;
+}
+
+.inst-card1 {
+  width: 18vw;
+  height: 19.1vw;
+  position: absolute;
+  top: -14vw;
+  left: -29vw;
+}
+
+.inst-card3 {
+  width: 18vw;
+  height: 19.1vw;
+  position: absolute;
+  top: 19vw;
+  left: 29vw;
+}
+
+.inst-card4 {
+  width: 18vw;
+  height: 19.1vw;
+  position: absolute;
+  top: -10vw;
+  left: 44vw;
+}
+
+.under-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 1.6vw;
+  line-height: 2.1vw;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.under-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 1.3vw;
+  line-height: 1.4;
+  color: #fff;
+  opacity: 0.6;
+  width: 10.5vw;
+}
+
 /* Nextstep-section */
 
 .separate-bacground {
@@ -1324,6 +1738,27 @@ footer {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.card1-btn:hover {
+  background: linear-gradient(
+    49deg,
+    #15bcdf 0.01%,
+    #0ddc7a 61.5%,
+    #15bcdf 100%
+  );
+}
+
+.card1-btn:hover .btn-icon-container {
+  background: linear-gradient(315deg, #111215 0%, #272b2e 100%);
+}
+
+.card1-btn:hover .card1-btn-text {
+  color: #ffffff;
+}
+
+.card1-btn:hover .card1-btn-icon {
+  fill: #04b8c4;
 }
 
 .card2-title {

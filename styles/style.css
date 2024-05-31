@@ -572,17 +572,27 @@ p {
 }
 
 .card-item {
+  position: relative;
   border: 1px solid #414141;
   border-radius: 22px;
   padding: 40px;
   flex-basis: calc((100%) / 3);
   height: 30.8vw;
+  overflow: hidden;
 }
 
-.card-item:hover {
-  background-image: url(../images/card-item-hover-bg.svg);
-  background-repeat: no-repeat;
-  background-position: bottom right;
+.card-item-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30vw;
+  height: 17vw;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.card-item-bg:hover {
+  opacity: 1;
 }
 
 .item-title {

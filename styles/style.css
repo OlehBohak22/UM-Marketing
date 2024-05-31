@@ -576,7 +576,13 @@ p {
   border-radius: 22px;
   padding: 40px;
   flex-basis: calc((100%) / 3);
-  height: 444px;
+  height: 30.8vw;
+}
+
+.card-item:hover {
+  background-image: url(../images/card-item-hover-bg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .item-title {
@@ -1172,6 +1178,7 @@ footer {
   width: 10vw;
   height: 3vw;
   margin-bottom: 3.3vw;
+  justify-content: center;
 }
 
 .calendar-value {
@@ -1200,9 +1207,11 @@ footer {
 
 .approach-card-internal-list {
   display: flex;
+  gap: 0.5vw;
 }
 
 .approach-internal-item {
+  position: relative;
   border-radius: 1.3vw;
   padding: 1.6vw;
   width: 14.1vw;
@@ -1212,6 +1221,39 @@ footer {
   flex-direction: column;
 
   justify-content: space-between;
+}
+
+.approach-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 14.1vw;
+  height: 10.1vw;
+  border-radius: 1.3vw;
+  background: url("../images/approach-card-bg.svg") no-repeat bottom right,
+    linear-gradient(48deg, #00d7d7 0%, #04b8c4 0.01%, #00ff82 100%);
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.approach-internal-item:hover .approach-backdrop {
+  opacity: 1;
+}
+
+.approach-backdrop-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 1.3vw;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: #fff;
+  width: 9.8vw;
 }
 
 .internal-icons {

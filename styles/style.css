@@ -1841,7 +1841,7 @@ footer {
   padding-top: 18vw;
   background-image: url(../images/requires-icon/result-bg.svg);
   background-repeat: no-repeat;
-  background-position: 30vw 95vw;
+  background-position: 21vw 92vw;
 }
 
 .results-title-container {
@@ -1931,6 +1931,26 @@ footer {
   top: 85vw;
   left: -2vw;
   z-index: -1;
+}
+
+.card1 {
+  width: 21.6vw;
+  height: 23.6vw;
+}
+
+.card2 {
+  width: 24.5vw;
+  height: 24.2vw;
+}
+
+.card3 {
+  width: 31.6vw;
+  height: 25.6vw;
+}
+
+.card4 {
+  width: 41.8vw;
+  height: 31.1vw;
 }
 /* section-um-store */
 

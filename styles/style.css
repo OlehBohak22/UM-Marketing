@@ -591,7 +591,7 @@ p {
   transition: 0.5s;
 }
 
-.card-item-bg:hover {
+.card-item:hover .card-item-bg {
   opacity: 1;
 }
 
@@ -2024,7 +2024,7 @@ footer {
     #15bcdf 100%
   );
   border: none;
-  transition-duration: 0.5s;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 
 .result-btn-text {

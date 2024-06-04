@@ -2024,6 +2024,7 @@ footer {
     #15bcdf 100%
   );
   border: none;
+  transition-duration: 0.5s;
 }
 
 .result-btn-text {
@@ -2053,6 +2054,15 @@ footer {
   width: 1.4vw;
   height: 1.4vw;
   fill: #15bcdf;
+  transition: 0.5s;
+}
+
+.result-btn:hover {
+  background: #fff;
+}
+
+.result-btn:hover .result-btn-icon {
+  fill: #fff;
 }
 /* section-um-store */
 

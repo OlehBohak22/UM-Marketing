@@ -1837,7 +1837,7 @@ footer {
 /* section results */
 
 .result-section {
-  height: 180vw;
+  height: 245vw;
   padding-top: 18vw;
   background-image: url(../images/requires-icon/result-bg.svg);
   background-repeat: no-repeat;
@@ -1951,6 +1951,108 @@ footer {
 .card4 {
   width: 41.8vw;
   height: 31.1vw;
+}
+
+.second-card-list {
+  display: flex;
+  margin-top: 135vw;
+  gap: 0.6vw;
+  margin-bottom: 6.6vw;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card5 {
+  width: 29.8vw;
+  height: 24.3vw;
+}
+
+.card6 {
+  width: 18vw;
+  height: 24.3vw;
+}
+
+.card7 {
+  width: 16.6vw;
+  height: 24.3vw;
+}
+
+.card8 {
+  width: 26.3vw;
+  height: 24.3vw;
+}
+
+.result-rightt-block {
+}
+
+.result-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.result-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 2.9vw;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #fff;
+  width: 44.2vw;
+  text-indent: 7vw;
+  margin-bottom: 6.6vw;
+}
+
+.result-second-span {
+  color: #1c1c1c;
+}
+
+.result-btn {
+  display: flex;
+  align-items: center;
+  border-radius: 4.5vw;
+  width: 19.4vw;
+  height: 4.8vw;
+
+  background: linear-gradient(
+    49deg,
+    #15bcdf 0.01%,
+    #0ddc7a 61.5%,
+    #15bcdf 100%
+  );
+  border: none;
+}
+
+.result-btn-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #031c11;
+  width: 15.3vw;
+}
+
+.result-btn-icon-container {
+  width: 2.9vw;
+  height: 2.9vw;
+  background-color: #070707;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-btn-icon {
+  width: 1.4vw;
+  height: 1.4vw;
+  fill: #15bcdf;
 }
 /* section-um-store */
 

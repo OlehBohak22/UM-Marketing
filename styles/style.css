@@ -2807,3 +2807,242 @@ footer {
     margin-bottom: 15vw;
   }
 }
+
+/* Section reviews */
+
+.reviews-marker-container {
+  border: 1px solid #fff;
+  border-radius: 25.4vw;
+  width: 7.4vw;
+  height: 2.6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 5.5vw;
+  line-height: 5.5vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fff;
+  width: 40.7vw;
+  margin-bottom: 3.3vw;
+}
+
+.better-span {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+}
+
+.reviews-btn {
+  border-radius: 166px;
+  width: 17.5vw;
+  height: 4.5vw;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(58deg, #5cd6b3 0%, #04b8c4 0.01%, #4bfa8a 100%);
+  border: none;
+}
+
+.reviews-btn-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  color: #070707;
+  width: 13.5vw;
+}
+
+.reviews-btn-icon {
+  width: 1.1vw;
+  height: 1.1vw;
+  fill: #5cd6b3;
+}
+
+.reviews-icon-container {
+  width: 2.9vw;
+  height: 2.9vw;
+  background-color: #070707;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-label-rating {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 6.6vw;
+  line-height: 6.6vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  background: linear-gradient(58deg, #5cd6b3 0%, #04b8c4 0.01%, #4bfa8a 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.reviews-label-icon {
+  width: 7.5vw;
+  height: 7.5vw;
+}
+
+.left-side-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.9vw;
+  line-height: 2.1vw;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: #fff;
+  width: 19.4vw;
+}
+
+.left-side-title-span {
+  font-weight: 700;
+}
+
+.arrow-container {
+  width: 5.2vw;
+  height: 5.2vw;
+  background-color: transparent;
+  border-radius: 100%;
+  border: 1px solid #414141;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  width: 1.3vw;
+  height: 1.3vw;
+  fill: #fff;
+}
+
+.star-icon {
+  width: 1.4vw;
+  height: 1.4vw;
+  fill: #fff;
+}
+
+.rating-value {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  line-height: 2vw;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.upwork-icon {
+  width: 5.4vw;
+  height: 1.7vw;
+}
+
+.review-card-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+  line-height: 1.7vw;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: #fff;
+  width: 17.3vw;
+  margin-bottom: 4.2vw;
+}
+
+.card-text-span {
+  color: #b9b9b9;
+}
+
+.location-icon {
+  width: 1.4vw;
+  height: 1.4vw;
+}
+
+.location-country {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.reviews-container {
+  background-image: url(../images/reviews-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 93vw 70.9vw;
+  padding-left: 4.1vw;
+  padding-top: 4.8vw;
+  padding-right: 3.4vw;
+  padding-bottom: 10vw;
+}
+
+.rewies-container-upper {
+  display: flex;
+  gap: 15.7vw;
+
+  margin-bottom: 5vw;
+}
+
+.label-container {
+  display: flex;
+  align-items: center;
+  gap: 1.4vw;
+  margin-bottom: 2vw;
+}
+
+.rewies-container-lover {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lover-container-right-side {
+  display: flex;
+  gap: 0.9vw;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+  border-radius: 0.5vw;
+  width: 11.5vw;
+  height: 2.8vw;
+  margin-bottom: 1.6vw;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8vw;
+}
+
+.review-card-container {
+  background-image: url(../images/reviews-rectangle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 19.9vw 31vw;
+  padding: 2vw 1.3vw;
+}
+
+.lover-container-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-side-arrows {
+  display: flex;
+  gap: 1.1vw;
+}

@@ -574,7 +574,7 @@ p {
 .card-item {
   position: relative;
   border: 1px solid #414141;
-  border-radius: 22px;
+  border-radius: 1.5vw;
   padding: 40px;
   flex-basis: calc((100%) / 3);
   height: 30.8vw;
@@ -1985,9 +1985,6 @@ footer {
   height: 24.3vw;
 }
 
-.result-rightt-block {
-}
-
 .result-block {
   display: flex;
   justify-content: space-between;
@@ -2069,9 +2066,6 @@ footer {
 .section-um-store {
   background-image: url(../images/um-section-back.svg);
   background-repeat: no-repeat;
-}
-
-.um-marker-container {
 }
 
 .um-marker-text {
@@ -2810,6 +2804,10 @@ footer {
 
 /* Section reviews */
 
+.section-reviews {
+  padding-top: 15.9vw;
+}
+
 .reviews-marker-container {
   border: 1px solid #fff;
   border-radius: 25.4vw;
@@ -3045,4 +3043,481 @@ footer {
 .left-side-arrows {
   display: flex;
   gap: 1.1vw;
+}
+
+/* Google ADS section */
+
+.google-ads-section {
+  padding-top: 8.3vw;
+}
+
+.google-ads-container {
+  overflow: hidden;
+}
+
+.google-ads-list {
+  display: flex;
+  gap: 2.7vw;
+}
+
+.google-ads-item {
+  width: 20.6vw;
+  height: 20.6vw;
+  border: 1px solid #525252;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1.1vw;
+}
+
+.google-ads-icon {
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.google-ads-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 1.4vw;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+  width: 12vw;
+}
+
+/* Team section */
+
+.team-section {
+  padding-top: 13.8vw;
+  padding-bottom: 19.4vw;
+}
+
+.tean-marker-container {
+  border: 1px solid #fff;
+  border-radius: 25.4vw;
+  width: 8.3vw;
+  height: 2.6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 2.2vw;
+}
+
+.team-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 4.5vw;
+  line-height: 4.3vw;
+  line-height: 0.96;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+  width: 57.9vw;
+  margin: 0 auto;
+  margin-bottom: 3.7vw;
+}
+
+.forces-span {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+}
+
+.team-btn {
+  display: flex;
+  align-items: center;
+  border-radius: 11.5vw;
+  width: 15.4vw;
+  height: 4.3vw;
+
+  background: linear-gradient(
+    49deg,
+    #15bcdf 0.01%,
+    #0ddc7a 61.5%,
+    #15bcdf 100%
+  );
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 6vw;
+}
+
+.team-btn-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  color: #070707;
+  width: 11.4vw;
+}
+
+.team-btn-icon-container {
+  width: 3.1vw;
+  height: 3.1vw;
+  background-color: #070707;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-btn-icon {
+  width: 1.4vw;
+  height: 1.4vw;
+}
+
+.team-list {
+  display: flex;
+  gap: 1.3vw;
+  flex-wrap: wrap;
+}
+
+.team-list-item:nth-child(1) {
+  width: 23.6vw;
+  height: 31.9vw;
+  border-radius: 1.5vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.team-list-item:nth-child(2) {
+  width: 23.6vw;
+  height: 31.9vw;
+  border-radius: 1.5vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.team-list-item:nth-child(3) {
+  width: 23.6vw;
+  height: 31.9vw;
+  border-radius: 1.5vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.team-list-item:nth-child(4) {
+  width: 23.6vw;
+  height: 31.9vw;
+  border-radius: 1.5vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.team-list-item:nth-child(5) {
+  width: 23.6vw;
+  height: 31.9vw;
+  border-radius: 1.5vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.team-list-item:nth-child(6) {
+  width: 23.6vw;
+  height: 31.9vw;
+  border-radius: 1.5vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.team-list-item:nth-child(7) {
+  width: 23.6vw;
+  height: 31.9vw;
+  border-radius: 1.5vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.team-list-item:nth-child(8) {
+  width: 23.6vw;
+  height: 31.9vw;
+  border-radius: 1.5vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.team-list-item:nth-child(9) {
+  width: 23.6vw;
+  height: 31.9vw;
+  border-radius: 1.5vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.team-item-plus-container {
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #fff 0%, #01f28e 100%);
+  margin-left: auto;
+  transition: 0.5s;
+}
+
+.team-member-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 1.5vw;
+  transition: 0.5s;
+  width: 23.6vw;
+  height: 31.9vw;
+  z-index: -1;
+}
+
+.team-item-plus-icon {
+  width: 0.9vw;
+  height: 0.9vw;
+}
+
+.team-member-name {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 2vw;
+  color: #161616;
+  width: 14vw;
+}
+
+.team-list-item:nth-child(1) .team-member-name-comtainer {
+  background-image: url(../images/team-images/team-unions/Union-dmutro.png);
+  background-repeat: no-repeat;
+  background-size: 10.4vw 5.5vw;
+  margin-bottom: 0.6vw;
+  width: 12.6vw;
+  height: 5.5vw;
+  padding-left: 0.6vw;
+  padding-top: 0.4vw;
+}
+
+.team-list-item:nth-child(2) .team-member-name-comtainer {
+  background-image: url(../images/team-images/team-unions/Union-veronika.png);
+  background-repeat: no-repeat;
+  background-size: 10.4vw 5.5vw;
+  margin-bottom: 0.6vw;
+  width: 12.6vw;
+  height: 5.5vw;
+  padding-left: 0.6vw;
+  padding-top: 0.4vw;
+}
+
+.team-list-item:nth-child(3) .team-member-name-comtainer {
+  background-image: url(../images/team-images/team-unions/Union-roman.png);
+  background-repeat: no-repeat;
+  background-size: 8.4vw 5.5vw;
+  margin-bottom: 0.6vw;
+  width: 12.6vw;
+  height: 5.5vw;
+  padding-left: 0.6vw;
+  padding-top: 0.4vw;
+}
+
+.team-list-item:nth-child(4) .team-member-name-comtainer {
+  background-image: url(../images/team-images/team-unions/Union-victor.png);
+  background-repeat: no-repeat;
+  background-size: 14.4vw 5.5vw;
+  margin-bottom: 0.6vw;
+  width: 15.6vw;
+  height: 5.5vw;
+  padding-left: 0.6vw;
+  padding-top: 0.4vw;
+}
+
+.team-list-item:nth-child(5) .team-member-name-comtainer {
+  background-image: url(../images/team-images/team-unions/Union-dmutro.png);
+  background-repeat: no-repeat;
+  background-size: 11.4vw 5.5vw;
+  margin-bottom: 0.6vw;
+  width: 12.6vw;
+  height: 5.5vw;
+  padding-left: 0.6vw;
+  padding-top: 0.4vw;
+}
+
+.team-list-item:nth-child(6) .team-member-name-comtainer {
+  background-image: url(../images/team-images/team-unions/Union-kate.png);
+  background-repeat: no-repeat;
+  background-size: 15.4vw 5.5vw;
+  margin-bottom: 0.6vw;
+  width: 15.6vw;
+  height: 5.5vw;
+  padding-left: 0.6vw;
+  padding-top: 0.4vw;
+}
+
+.team-list-item:nth-child(7) .team-member-name-comtainer {
+  background-image: url(../images/team-images/team-unions/Union-dmutro.png);
+  background-repeat: no-repeat;
+  background-size: 12.4vw 5.5vw;
+  margin-bottom: 0.6vw;
+  width: 14.6vw;
+  height: 5.5vw;
+  padding-left: 0.6vw;
+  padding-top: 0.4vw;
+}
+
+.team-list-item:nth-child(8) .team-member-name-comtainer {
+  background-image: url(../images/team-images/team-unions/Union-yevhen.png);
+  background-repeat: no-repeat;
+  background-size: 8.4vw 5.5vw;
+  margin-bottom: 0.6vw;
+  width: 12.6vw;
+  height: 5.5vw;
+  padding-left: 0.6vw;
+  padding-top: 0.4vw;
+}
+
+.team-list-item:nth-child(9) .team-member-name-comtainer {
+  background-image: url(../images/team-images/team-unions/Union-oleksii.png);
+  background-repeat: no-repeat;
+  background-size: 12.4vw 5.5vw;
+  margin-bottom: 0.6vw;
+  width: 12.6vw;
+  height: 5.5vw;
+  padding-left: 0.6vw;
+  padding-top: 0.4vw;
+}
+
+.team-member-specialize {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 1vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #1d1d1b;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 0.4vw 0.8vw;
+  border-radius: 25.4vw;
+  width: fit-content;
+}
+
+.team-member-specialize::before {
+  content: "";
+  width: 0.2vw;
+  height: 0.2vw;
+  background-color: #070707;
+  border-radius: 100%;
+  margin-right: 0.4vw;
+}
+
+.team-list {
+}
+
+.team-list-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-hover-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2vw 2vw 0 2vw;
+  background-image: url(../images/team-images/team-hover-rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 23.6vw 19.4vw;
+  width: 23.6vw;
+  height: 19.4vw;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.team-member-hover-name {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 2.2vw;
+  line-height: 2.4vw;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 0.5vw;
+  width: 15vw;
+}
+
+.team-member-hover-specialize {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.1vw;
+}
+
+.team-member-hover-specialize::before {
+  content: "";
+  width: 0.3vw;
+  height: 0.3vw;
+  border-radius: 100%;
+  background-color: #fff;
+  margin-right: 0.4vw;
+}
+
+.team-member-hover-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 1.4vw;
+  line-height: 1.5;
+  color: #fff;
+  width: 19.4vw;
+  opacity: 0.6;
+}
+
+.team-list-item:hover .team-hover-container {
+  opacity: 1;
+}
+
+.team-list-item:hover {
+  height: 37.1vw;
+}
+
+.team-list-item:hover .team-item-plus-container {
+  opacity: 0;
+}
+
+.team-list-item:hover .team-member-images {
+  width: 20.8vw;
+  height: 28.4vw;
+  left: 1.5vw;
+  top: 2vw;
+  transform: rotate(-5deg);
+}
+
+.team-list-item:hover .team-member-info {
+  opacity: 0;
 }

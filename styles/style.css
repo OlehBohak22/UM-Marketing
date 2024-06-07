@@ -3175,8 +3175,9 @@ footer {
 
 .team-list {
   display: flex;
+  flex-direction: row;
   gap: 1.3vw;
-  flex-wrap: wrap;
+  height: 36vw;
 }
 
 .team-list-item:nth-child(1) {
@@ -3404,6 +3405,10 @@ footer {
   padding-top: 0.4vw;
 }
 
+.team-list-item:nth-child(even) {
+  align-self: flex-end;
+}
+
 .team-member-specialize {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
@@ -3434,6 +3439,7 @@ footer {
   position: relative;
   overflow: hidden;
   transition: 0.5s;
+  flex-shrink: 0;
 }
 
 .team-hover-container {

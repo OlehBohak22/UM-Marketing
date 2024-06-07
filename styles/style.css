@@ -3433,6 +3433,7 @@ footer {
 .team-list-item {
   position: relative;
   overflow: hidden;
+  transition: 0.5s;
 }
 
 .team-hover-container {

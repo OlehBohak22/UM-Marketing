@@ -1,0 +1,260 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-section {
+  padding: 5vw 0 5vw 0;
+}
+
+.container {
+  max-width: 100vw;
+  padding: 0 3.4vw;
+  margin: 0 auto;
+}
+
+.blog-title-container {
+  display: flex;
+  gap: 5.5vw;
+  margin-bottom: 5vw;
+}
+
+.blog-marker {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #1d1d1b;
+  border: 1px solid #1d1d1b;
+  border-radius: 25.4vw;
+  padding: 0.5vw 1.1vw;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.4vw;
+}
+
+.blog-marker::before {
+  content: "";
+  width: 0.3vw;
+  height: 0.3vw;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.title-block {
+}
+
+.blog-title {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 5.9vw;
+  line-height: 5.7vw;
+  letter-spacing: -0.02em;
+  color: #1d1d1b;
+  width: 22vw;
+  margin-bottom: 2.7vw;
+}
+
+.blog-title-span {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+}
+
+.link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6vw;
+}
+
+.blog-title-links {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 2.5vw;
+  line-height: 2.5vw;
+  letter-spacing: -0.02em;
+  color: #a5a5a4;
+  display: flex;
+  align-items: baseline;
+  gap: 0.3vw;
+  transition: 0.3s;
+}
+
+.blog-title-links:hover {
+  color: #1d1d1b;
+}
+
+.current-blog {
+  font-size: 2.9vw;
+  line-height: 2.9vw;
+  color: #1d1d1b;
+  align-items: flex-end;
+}
+
+.link-number {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.8vw;
+  line-height: 0.8vw;
+  letter-spacing: -0.02em;
+  color: #a5a5a4;
+  transition: 0.3s;
+}
+
+.blog-title-links:hover .link-number {
+  color: #1d1d1b;
+}
+
+.blog-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4.1vw;
+  column-gap: 1.4vw;
+}
+
+.blog-card-item {
+  width: 29.8vw;
+  height: 36.3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.7vw;
+}
+
+.blog-card-image {
+  width: 29.8vw;
+  height: 20.8vw;
+  border-radius: 0.7vw;
+  transition: 0.3s;
+  object-fit: cover;
+}
+
+.blog-card-read {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+  letter-spacing: -0.03em;
+  color: #1d1d1b;
+  opacity: 0.6;
+  margin-top: 1.1vw;
+  margin-bottom: 1.1vw;
+  transition: 0.3s;
+}
+
+.blog-card-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 1.9vw;
+  line-height: 2.1vw;
+  line-height: 1.1;
+  color: #1d1d1b;
+  margin-bottom: 2.7vw;
+  transition: 0.3s;
+}
+
+.card-person-block {
+  display: flex;
+  gap: 0.8vw;
+  align-items: center;
+}
+
+.person-image {
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 0.4vw;
+}
+
+.person-info {
+}
+
+.person-name {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  line-height: 1;
+  color: #1d1d1b;
+  margin-bottom: 0.4vw;
+}
+
+.person-spec {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 0.9vw;
+  line-height: 1;
+  color: #686868;
+}
+
+.card-image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.7vw;
+  width: 29.8vw;
+  height: 20.8vw;
+}
+
+.hover-bg {
+  position: absolute;
+  bottom: 0vw;
+  left: 0vw;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.blog-card-item:hover .hover-bg {
+  opacity: 1;
+}
+
+.blog-card-item:hover .blog-card-image {
+  transform: scale(1.3);
+}
+
+.blog-card-item:hover .blog-card-title {
+  background: linear-gradient(
+    49deg,
+    #15bcdf 0.01%,
+    #0ddc7a 61.5%,
+    #15bcdf 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blog-card-item:hover .blog-card-read {
+  opacity: 0;
+}

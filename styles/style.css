@@ -4516,16 +4516,363 @@ footer {
     width: 80vw;
     height: 108vw;
   }
+}
 
-  .team-hover-container {
-  }
+/* cases ----------------------------------------------------------------------------------------------- */
 
-  .team-member-hover-name {
-  }
+.cases-section {
+  background-color: #ffffff;
+  padding: 5vw 0;
+}
 
-  .team-member-hover-specialize {
-  }
+.cases-marker {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #1d1d1b;
+  border: 1px solid #1d1d1b;
+  border-radius: 25.4vw;
+  padding: 0.5vw 1.1vw;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.4vw;
+  margin: 0 auto;
+  margin-bottom: 2.2vw;
+}
 
-  .team-member-hover-text {
-  }
+.cases-marker::before {
+  content: "";
+  width: 0.3vw;
+  height: 0.3vw;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.cases-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 4.5vw;
+  line-height: 4.5vw;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #1d1d1b;
+  width: 57vw;
+  margin: 0 auto;
+  margin-bottom: 6vw;
+}
+
+.cases-title-span {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+}
+
+.studies-links {
+  font-size: 2.3vw;
+}
+
+.stusies-section {
+  padding: 5vw 0 11vw 0;
+}
+
+.studies-link-list {
+  justify-content: flex-end;
+  margin-bottom: 5vw;
+}
+
+.studies-card-item {
+  height: 47.7vw;
+  width: 30.2vw;
+  border-radius: 1.4vw;
+  overflow: hidden;
+  position: relative;
+  padding: 1.3vw 2vw 0 2vw;
+}
+
+.studies-title-container {
+  margin-bottom: 2.7vw;
+}
+
+.studies-card-image {
+  position: absolute;
+  width: 30.2vw;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.studies-card-upper-blocks {
+  display: flex;
+  gap: 0.4vw;
+  margin-bottom: 12.8vw;
+}
+
+.upper-block {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 0.9vw;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1d1d1b;
+  background: #fff;
+  border-radius: 25.4vw;
+  padding: 0.8vw 1.1vw;
+}
+
+.item-date-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8vw;
+  margin-bottom: 1.6vw;
+}
+
+.studies-item-calendar-container {
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 100%;
+  background: linear-gradient(58deg, #0034ed 0%, #04b8c4 49%, #4bfa8a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-date-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.9vw;
+  line-height: 1.3vw;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #1d1d1b;
+}
+
+.studies-card-rectangle {
+  position: absolute;
+  left: 0;
+  top: 15vw;
+  width: 30.2vw;
+  height: 32.7vw;
+  z-index: -1;
+}
+
+.studies-card-title {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 2.6vw;
+  line-height: 3.2vw;
+  letter-spacing: -0.01em;
+  color: #1d1d1b;
+  margin-bottom: 0.8vw;
+}
+
+.studies-card-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 1.6vw;
+  color: #a2a2a2;
+  margin-bottom: 3.1vw;
+}
+
+.studies-item-price-blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.6vw;
+}
+
+.price-name {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.25vw;
+  line-height: 1.25vw;
+  line-height: 1;
+  color: #161616;
+  opacity: 0.3;
+}
+
+.price-value {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 1.8vw;
+  line-height: 1.8vw;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #1d1d1b;
+}
+
+.studies-item-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.4vw;
+}
+
+.studies-more-btn {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 0.9vw;
+  line-height: 0.9vw;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1d1d1b;
+  border-radius: 11.5vw;
+  padding: 1.5vw 1vw;
+  border: none;
+  transition: 0.3s;
+  background: #f5f5f5;
+}
+
+.studies-buy-item {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    49deg,
+    #15bcdf 0.01%,
+    #0ddc7a 61.5%,
+    #15bcdf 100%
+  );
+  border: none;
+  border-radius: 11.5vw;
+  padding: 0.6vw;
+}
+
+.buy-item-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  font-size: 0.9vw;
+  line-height: 0.9vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  width: 11vw;
+  transition: 0.3s;
+}
+
+.buy-item-icon {
+  width: 1.1vw;
+  height: 1.1vw;
+  fill: #15bcdf;
+  transition: 0.3s;
+}
+
+button {
+  cursor: pointer;
+}
+
+.buy-item-icon-container {
+  width: 2.6vw;
+  height: 2.6vw;
+  border-radius: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.studies-buy-item:hover {
+  background: linear-gradient(315deg, #111215 0%, #272b2e 100%);
+}
+
+.studies-buy-item:hover .buy-item-text {
+  color: #fff;
+}
+
+.studies-buy-item:hover .buy-item-icon {
+  fill: #111215;
+}
+
+.studies-more-btn:hover {
+  background: linear-gradient(315deg, #111215 0%, #272b2e 100%);
+  color: #fff;
+}
+
+.studies-card-item:hover .studies-card-image {
+  transform: scale(1.2);
+}
+
+.stidies-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.1vw;
+  column-gap: 0.8vw;
+  margin-bottom: 5vw;
+}
+
+.studies-title-form-container {
+  display: flex;
+}
+
+.studies-title {
+  margin-right: 26vw;
+}
+
+.studies-form {
+}
+
+.studies-input {
+  border: none;
+  border-bottom: 1px solid #1d1d1b;
+  padding: 0px 0px 1.6vw 0;
+  width: 25.5vw;
+  margin-right: 1.1vw;
+}
+
+.studies-form-btn {
+  width: 3.8vw;
+  height: 3.8vw;
+  border-radius: 100%;
+  background-color: #1d1d1b;
+  border: none;
+}
+
+.studies-form-btn-icon {
+  width: 0.8vw;
+  height: 0.8vw;
+  fill: #fff;
+}
+
+.studies-load-btn {
+  display: block;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-size: 1.25vw;
+  line-height: 1.25vw;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1d1d1b;
+  border-radius: 4.5vw;
+  padding: 1.8vw 0.9vw;
+  border: none;
+  background: #f5f5f5;
+  margin: 0 auto;
+  width: 20.8vw;
+  height: 4.8vw;
+}
+
+.cases-card-image {
+  z-index: 0;
+}
+
+.cases-card-block {
+  position: relative;
+  z-index: 2;
+}
+
+.cases-card-info {
+  position: relative;
+  z-index: 2;
+}
+
+.cases-rectangle {
+  z-index: 0;
 }

@@ -4877,12 +4877,6 @@ button {
   z-index: 0;
 }
 
-.container {
-  max-width: 100vw;
-  padding: 0 3.4vw;
-  margin: 0 auto;
-}
-
 .blog-title-container {
   display: flex;
   gap: 5.5vw;

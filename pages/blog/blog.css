@@ -258,3 +258,172 @@ p {
 .blog-card-item:hover .blog-card-read {
   opacity: 0;
 }
+
+.studies-title-form-container {
+  display: flex;
+}
+
+.studies-title {
+  margin-right: 26vw;
+}
+
+.studies-form {
+}
+
+.studies-input {
+  border: none;
+  border-bottom: 1px solid #1d1d1b;
+  padding: 0px 0px 1.6vw 0;
+  width: 25.5vw;
+  margin-right: 1.1vw;
+}
+
+.studies-form-btn {
+  width: 3.8vw;
+  height: 3.8vw;
+  border-radius: 100%;
+  background-color: #1d1d1b;
+  border: none;
+}
+
+.studies-form-btn-icon {
+  width: 0.8vw;
+  height: 0.8vw;
+  fill: #fff;
+}
+
+@media (max-width: 1024px) {
+  .blog-card-list {
+    flex-direction: column;
+    gap: 10vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog-card-item {
+    width: 89vw;
+    height: 96vw;
+  }
+
+  .card-image-container {
+    width: 89vw;
+    height: 61vw;
+    border-radius: 2vw;
+  }
+
+  .blog-card-image {
+    width: 89vw;
+    height: 61vw;
+  }
+
+  .hover-bg {
+  }
+
+  .blog-card-read {
+    font-size: 3.7vw;
+  }
+
+  .blog-card-title {
+    font-size: 6.4vw;
+  }
+
+  .card-person-block {
+  }
+
+  .person-image {
+    width: 9.6vw;
+    height: 9.6vw;
+    border-radius: 2vw;
+  }
+
+  .person-info {
+  }
+
+  .person-name {
+    font-size: 3.7vw;
+  }
+
+  .person-spec {
+    font-size: 3.2vw;
+  }
+
+  .blog-title-container {
+    flex-direction: column;
+  }
+
+  .blog-marker {
+    font-size: 3.2vw;
+    padding: 1.6vw 3.2vw;
+    height: 7.7vw;
+  }
+
+  .blog-marker::before {
+    width: 0.8vw;
+    height: 0.8vw;
+    margin-right: 1.8vw;
+  }
+
+  .title-block {
+  }
+
+  .blog-title {
+    font-size: 15vw;
+    line-height: 14.4vw;
+    width: 40vw;
+  }
+
+  .blog-title-span {
+  }
+
+  .link-list {
+    margin-bottom: 10.6vw;
+  }
+
+  .blog-title-links {
+    font-size: 7.4vw;
+    line-height: 7.4vw;
+    letter-spacing: -0.02em;
+  }
+
+  .current-blog {
+  }
+
+  .link-number {
+    font-size: 3.7vw;
+  }
+
+  .studies-form {
+    margin-bottom: 10.6vw;
+  }
+
+  .studies-input {
+    width: 70vw;
+    padding-bottom: 6.4vw;
+  }
+
+  .studies-form-btn {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .studies-form-btn-icon {
+    width: 3.2vw;
+    height: 3.2vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}

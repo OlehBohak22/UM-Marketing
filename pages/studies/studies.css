@@ -284,3 +284,176 @@ button {
   width: 20.8vw;
   height: 4.8vw;
 }
+
+@media (max-width: 1024px) {
+  .studies-title-container {
+    flex-direction: column;
+  }
+
+  .blog-marker {
+  }
+
+  .studies-title-form-container {
+    flex-direction: column;
+  }
+
+  .studies-title {
+    width: 90vw;
+    margin-bottom: 10.6vw;
+  }
+
+  .blog-title-span {
+  }
+
+  .studies-form {
+    margin-bottom: 10.6vw;
+  }
+
+  .studies-input {
+    width: 70vw;
+    padding-bottom: 6.4vw;
+  }
+
+  .studies-form-btn {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .studies-form-btn-icon {
+    width: 3.2vw;
+    height: 3.2vw;
+  }
+
+  .link-list {
+    justify-content: flex-start;
+  }
+
+  .studies-link-list {
+  }
+
+  .blog-title-links {
+    font-size: 7.4vw;
+    line-height: 7.4vw;
+    letter-spacing: -0.02em;
+  }
+
+  .current-blog {
+  }
+
+  .link-number {
+    font-size: 3.7vw;
+  }
+
+  .stidies-card-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .studies-card-item {
+    width: 89.3vw;
+    height: 150vw;
+    padding: 4.3vw 6vw 0 6vw;
+  }
+
+  .studies-card-image {
+    width: 89.3vw;
+  }
+
+  .studies-card-rectangle {
+    width: 89.3vw;
+    height: 114vw;
+    top: 37vw;
+  }
+
+  .studies-link-list {
+    margin-bottom: 10.6vw;
+  }
+
+  .studies-card-upper-blocks {
+    gap: 1.6vw;
+    margin-bottom: 35.8vw;
+  }
+
+  .upper-block {
+    font-size: 2.6vw;
+    padding: 2.6vw 3.7vw;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .item-date-container {
+    gap: 3.2vw;
+    margin-bottom: 4.2vw;
+  }
+
+  .studies-item-calendar-container {
+    width: 8.5vw;
+    height: 8.5vw;
+  }
+
+  .item-date-text {
+    font-size: 3.4vw;
+  }
+
+  .studies-card-title {
+    font-size: 8.5vw;
+    margin-bottom: 6.6vw;
+  }
+
+  .studies-card-text {
+    font-size: 3.7vw;
+    margin-bottom: 8vw;
+  }
+
+  .studies-item-price-blocks {
+    margin-bottom: 4.2vw;
+  }
+
+  .price-name {
+    font-size: 3.7vw;
+  }
+
+  .price-value {
+    font-size: 5.8vw;
+  }
+
+  .studies-item-buttons {
+    flex-direction: column-reverse;
+    gap: 2.1vw;
+  }
+
+  .studies-more-btn {
+    font-size: 3.7vw;
+    height: 13.8vw;
+  }
+
+  .studies-buy-item {
+    justify-content: center;
+    height: 13.8vw;
+  }
+
+  .buy-item-text {
+    font-size: 3.7vw;
+    width: 64vw;
+  }
+
+  .buy-item-icon-container {
+    width: 8.5vw;
+    height: 8.5vw;
+  }
+
+  .buy-item-icon {
+    width: 3.2vw;
+    height: 3.2vw;
+  }
+
+  .studies-load-btn {
+    border-radius: 66px;
+    padding: 24px 14px;
+    width: 335px;
+    height: 62px;
+    font-size: 3.7vw;
+    background: #f5f5f5;
+  }
+}
